@@ -1,0 +1,38 @@
+#+title: Main
+#+AUTHOR: Ashvin
+
+
+* TASKS
+** GENERAL
+*** TODO stretch and workout
+SCHEDULED: <2025-05-27 Tue 17:00>
+** WORK
+*** TODO plan $$ from chatgpt
+*** TODO practice vim keybinding
+*** TODO start working on it
+*** TODO revise leetcode problems
+
+*** LEARNING ($)
+**** TODO look popular/most asked python tasks/work/job in upwork, fiverr, etc
+**** TODO note down 10 python jobs
+
+* LEARNING
+** python($)
+*** jobs on (upwork, fiverr, freelance, topal)
+1. web scrapping
+2.
+** DSA
+*** leetcode problems
+**** solved problems
+1. contains duplicate
+2. missing numbers
+3. find all numbers dissapered
+4. two sum
+5. how many numbers are smaller than current
+6. minimum time visiting all points
+7. spiral matrix
+8. valid anagram
+9. palindrome
+
+* PROJECTS
+* NOTES
