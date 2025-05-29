@@ -91,6 +91,12 @@ YT:
 freeCodeCamp - Build an AI Chatbot using ChatGPT API
 
 Coding Is Fun - ChatGPT API Tutorial
+**** websites
+***** https://www.tutorialspoint.com/python_web_scraping/index.html
+***** https://www.scrapingbee.com/blog/web-scraping-101-with-python/
+***** https://realpython.com/tutorials/web-scraping
+***** https://realpython.com/beautiful-soup-web-scraper-python/
+***** https://www.geeksforgeeks.org/python-automation/
 
 
 ** DSA
@@ -106,6 +112,10 @@ Coding Is Fun - ChatGPT API Tutorial
 8. valid anagram
 9. palindrome number
 10. group anagram
+*** websites
+**** codechef.com
+**** hackerearth.com
+**** codewars.com
 
 * PROJECTS
 * NOTES
