@@ -1,0 +1,41 @@
+--------------------------
+QUICK GITHUB SSH SETUP
+--------------------------
+
+1️⃣ Generate a new SSH key:
+    ssh-keygen -t ed25519 -C "your_email@example.com"
+
+    (Press Enter at each prompt, no passphrase needed.)
+
+2️⃣ Start the SSH agent:
+    eval "$(ssh-agent -s)"
+
+3️⃣ Add the SSH key to the agent:
+    ssh-add ~/.ssh/id_ed25519
+
+4️⃣ Print your public key:
+    cat ~/.ssh/id_ed25519.pub
+
+5️⃣ Copy that output.
+
+6️⃣ Go to GitHub:
+    → Settings → SSH and GPG keys → New SSH key
+    → Paste the key and save.
+
+7️⃣ Change your remote URL to SSH:
+    git remote set-url origin git@github.com:Ashpheonix999/hmm.git
+
+8️⃣ Test SSH connection:
+    ssh -T git@github.com
+
+    (You should see a "Hi Ashpheonix999! You've successfully authenticated" message.)
+
+9️⃣ Push to your repo:
+    git push origin main
+    (Replace 'main' with your branch if needed.)
+
+10️⃣ Delete your old SSH key from GitHub:
+    → Settings → SSH and GPG keys → Delete the old key (optional).
+
+--------------------------
+
