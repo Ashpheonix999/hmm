@@ -24,5 +24,10 @@ feh (feh --bg-scale ~/Documents/git/hmm/wallpapers/dark_river.jpg)
 nvim
 alacritty
 git
+alsamixer
+st (terminal)
 
-
+firefox tweaks 
+browser.sessionstore.interval - 60000
+browser.tabs.unloadOnLowMemory - true
+accessibility.force_disabled - 1
