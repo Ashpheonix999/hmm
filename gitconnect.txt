@@ -31,3 +31,6 @@ firefox tweaks
 browser.sessionstore.interval - 60000
 browser.tabs.unloadOnLowMemory - true
 accessibility.force_disabled - 1
+
+
+lshw
