@@ -1,0 +1,8 @@
+#+title: Main
+#+AUTHOR: Ashvin
+
+* GENERAL
+** TODO finalise $ method from ai
+SCHEDULED: <2025-10-12 Sun>
+** TODO start yt main permanent
+** TODO stretch + vertical traning
