@@ -23,15 +23,15 @@ print(sum(total_attendance)/len(total_attendance))
 import math
 
 subjects = {
-    "Chemistry": {"attended": 26, "total": 35, "slots_per_class": 1},
-    "Chemistry Lab": {"attended": 18, "total": 26, "slots_per_class": 2},
-    "Physics": {"attended": 30, "total": 38, "slots_per_class": 1},
-    "Physics Lab": {"attended": 24, "total": 28, "slots_per_class": 2},
-    "Python": {"attended": 40, "total": 54, "slots_per_class": 2},
-    "Maths": {"attended": 30, "total": 39, "slots_per_class": 1},
-    "Maths Lab": {"attended": 22, "total": 34, "slots_per_class": 2},
-    "English": {"attended": 36, "total": 45, "slots_per_class": 1},
-    "English Lab": {"attended": 26, "total": 30, "slots_per_class": 2},
+    "Chemistry": {"attended": 27, "total": 39, "slots_per_class": 1},
+    "Chemistry Lab": {"attended": 20, "total": 28, "slots_per_class": 2},
+    "Physics": {"attended": 30, "total": 40, "slots_per_class": 1},
+    "Physics Lab": {"attended": 24, "total": 30, "slots_per_class": 2},
+    "Python": {"attended": 40, "total": 58, "slots_per_class": 2},
+    "Maths": {"attended": 32, "total": 42, "slots_per_class": 1},
+    "Maths Lab": {"attended": 26, "total": 32, "slots_per_class": 2},
+    "English": {"attended": 37, "total": 47, "slots_per_class": 1},
+    "English Lab": {"attended": 26, "total": 32, "slots_per_class": 2},
 }
 
 desired_percentage = int(input("Enter desired attendance percentage (e.g., 90): "))

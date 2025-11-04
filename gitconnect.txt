@@ -34,5 +34,56 @@ browser.sessionstore.interval - 60000
 browser.tabs.unloadOnLowMemory - true
 accessibility.force_disabled - 1
 
-
 lshw
+
+
+# dual monitor setup
+# when the external is disconnected 
+-> i3-msg -t get_workspaces | jq '.[] | {name, output}'
+-> {
+  "name": "1",
+  "output": "eDP"
+}
+{
+  "name": "3",
+  "output": "eDP"
+}
+{
+  "name": "5",
+  "output": "eDP"
+}
+{
+  "name": "7",
+  "output": "eDP"
+}
+{
+  "name": "2",
+  "output": "HDMI-1-1"
+}
+{
+  "name": "4",
+  "output": "HDMI-1-1"
+}
+
+then:
+i3-msg "workspace 2; move workspace to output eDP"
+
+
+
+# reconnection after:
+xrandr --output eDP --primary --auto --rotate normal --output HDMI-1-1 --auto --right-of eDP --rotate normal
+
+# for creating a new instance with xfce4 for windows like
+startx /usr/bin/startxfce4 -- :1
+sudo pkill -f "X.*:1"
+0: i3 
+1: xfce if needed
+kitten themes, kitten choose-fonts
+
+
+# allowing pasting in neocolab
+var allowCopyAndPaste = function (e) { e.stopImmediatePropagation(); return true; }; document.addEventListener("copy", allowCopyAndPaste, true); document.addEventListener("paste", allowCopyAndPaste, true); document.addEventListener("onpaste", allowCopyAndPaste, true);
+
+# redshift
+redshift -O 4200 -> warm normal decent
+redshift -x -> get back to normal
